@@ -1,0 +1,33 @@
+# Modul 2 Shared Configuration YAML
+
+api:
+  open_meteo_endpoint: "https://api.open-meteo.com/v1/forecast"
+  poll_interval_seconds: 300
+  timeout_seconds: 30
+
+# Major cities in Indonesia
+target_coordinates:
+  Jakarta:
+    lat: -6.2088
+    lon: 106.8456
+  Surabaya:
+    lat: -7.2504
+    lon: 112.7688
+  Bandung:
+    lat: -6.9175
+    lon: 107.6191
+  Medan:
+    lat: 3.5952
+    lon: 98.6722
+  Balikpapan:
+    lat: -1.2654
+    lon: 116.8312
+  Makassar:
+    lat: -5.1477
+    lon: 119.4327
+  Yogyakarta:
+    lat: -7.7956
+    lon: 110.3695
+  Denpasar:
+    lat: -8.6705
+    lon: 115.2126

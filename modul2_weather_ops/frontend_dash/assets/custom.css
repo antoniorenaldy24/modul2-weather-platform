@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background-attachment: fixed;
+    font-family: 'Inter', sans-serif;
+    color: #333333;
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* Glassmorphism utility classes */
+.glass-panel {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.glass-panel:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 40px 0 rgba(31, 38, 135, 0.1);
+}
+
+.kpi-value {
+    font-size: 2rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.kpi-label {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.header-title {
+    font-weight: 800;
+    background: -webkit-linear-gradient(#2c3e50, #2980b9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

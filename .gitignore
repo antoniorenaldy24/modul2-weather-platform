@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+
+# Environment variables
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific - Cache files (auto-generated, do not commit)
+modul2_weather_ops/temp_db/
+modul2_weather_ops/temp_style.css
+*.tmp
+
+# Taipy runtime artifacts
+.taipy/
+taipy.db
+
+# Git submodule clones (5b uses its own repo)
+modul2_assignments/5b_pollution/.git/
